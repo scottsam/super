@@ -1,0 +1,48 @@
+h3 {
+  text-transform: uppercase;
+}
+
+.dash {
+  color: white;
+  height: 10vh;
+  text-align: center;
+  padding-top: 1.6rem;
+}
+.das1 {
+  float: right;
+  font-size: 20px;
+
+  margin: 10px;
+  color: coral;
+}
+.img1 {
+  width: 40px;
+  border-radius: 100%;
+}
+#ds {
+  width: 100px;
+  border-radius: 40px;
+}
+#ds1 {
+  width: 300px;
+  height: 40px;
+  border-radius: 40px;
+}
+.nav-ds {
+  height: 19vh;
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  padding-left: 2rem;
+}
+
+@media (max-width: 600px) {
+  .nav-ds {
+    height: 30vh;
+    display: flex;
+  }
+  #ds1 {
+    width: 200px;
+    border-radius: 40px;
+  }
+}
